@@ -1,0 +1,347 @@
+
+/* ==================navbar style===================== */
+:root{
+    --main-color:#0d6efd;
+}
+
+   nav .collapse form .nav-item .nav-link{
+    font-size: 25px;
+    /* background-color: red; */
+    /* float: right; */
+    margin-right: 25px;
+    padding: 10px 30px;
+} 
+body{
+    background-color: #e9e4de;
+}
+.navbarImg{
+  height: 60px;
+  width: 120px;
+}
+.apply{
+    background-color: var(--main-color);
+    border-radius: 15px;
+    color: white;
+    /* text-shadow: 2px 2px 12px white; */
+    box-shadow: 2px 2px 12px rgb(56, 150, 172);    
+}
+.nav-link{
+
+    font-weight: 600;
+    margin-top: 20px;
+}
+.nav-link:hover{
+    text-shadow: 1px 1px 8px lightseagreen;
+}
+.apply:hover{
+    color: white;
+    text-shadow: 2px 2px 8px white;
+}
+.navbar{
+    background-color:#e9e4de ;
+}
+
+.homeSection{
+    position: relative;
+    height: 100vh;
+    background-image: url('./img/home/Landing+page+1+copy.jpg');
+    background-repeat: no-repeat;
+    /* background-position: ; */
+     background-size: 100% 100%;
+}
+
+.homeSection img{
+    /* position: static; */
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 0px;
+}
+.homeSection .contened{
+    top: 10px;
+    position: absolute;
+}
+
+.tow{
+    margin-top: 240px;
+    margin-left: 30px;
+    color: var(--main-color);
+    font-weight: 80px;
+}
+.three{
+    background-color: var(--main-color);
+    color: white;
+    
+}
+.four{
+    font-size: 18px;
+    color: var(--main-color);
+}
+
+ 
+.five{
+    /* height: 900px;
+    width: 1300px; */
+    background-color: #e9e4de;
+}
+.main{
+    /* margin-top: 130px; */
+    padding-top: 70px;
+    text-align: center;
+    color: var(--main-color);
+}
+.main1{
+    background-color: var(--main-color);
+    color: white;
+    border-radius:7px;
+    box-shadow: 2px 2px 12px rgb(75, 193, 206);
+}
+.six{
+    margin-top: 70px;
+    margin-left: 120px;
+    border-radius: 40px;
+}
+
+.seven{
+    margin-top: 70px;
+    margin-left: 100px;
+    border-radius: 40px;
+}
+
+
+.five .row .col-md-5{
+    margin-top: 160px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px #0d6efd;
+}
+.five .row svg{
+    width: 100%;
+    padding:20px;
+    margin-top:-70px;
+}
+ 
+.Digital{
+    font-size: 30px;
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+.learn1{
+    color: var(--main-color);
+    margin-top: 40px;
+}
+
+.btn1 .btn{
+    margin: 50px 0;
+    font-size: 20px;
+    box-shadow: 2px 2px 12px lightblue;
+}
+.mainShh{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.empo{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.empo span{
+    font-size: 1rem;
+}
+
+.part1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 70px;
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+.par{
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 9px;
+    box-shadow:2px 2px 12px lightskyblue;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.cards{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    margin:80px 0;
+    /* gap: 20px; */
+    
+}
+.cards .part2{
+    padding : 20px;
+    border: 1px solid lightblue;
+    box-shadow: 0 0 12px lightblue ,
+                0 0 22px lightblue ;
+    background-color: white;
+    border-radius: 12px;
+}
+.cards .header{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.cards .header img{
+    width: 200px;
+    height: 200px;
+    /* object-fit: cover; */
+}
+.cards .header h3{
+    /* font-size: 1.9rem; */
+    font-weight: 400;
+}
+.cards .part2{
+    position: relative;
+}
+.cards .part2 p{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color:rgba(0, 0, 255, 0.788);
+}
+
+.cards .header .h3{
+    color: var(--main-color);
+}
+
+.cards .part2 .enter{
+    line-height: 70px;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 9px;
+    
+}
+
+/* ==============================Partner========== */
+.main-our{
+    /* height: 100%; */
+    padding-bottom: 2px;
+}
+.partner{
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.lorem{
+    color: var(--main-color);
+}
+
+/* ==========================================Youth optential============ */
+
+.youth{
+    background: rgb(242, 238, 235);
+    height: 100%;
+}
+
+.poten{
+    margin-top: 70px;
+    font-size: 60px;
+    color: var(--main-color);
+    margin-left: 40px;
+}
+
+.ship{
+    background: var(--main-color);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px lightskyblue;
+}
+
+.lorem{
+    margin-left: 40px;
+    font-size: 20px;
+    color: var(--main-color);
+
+}
+
+.img-about{
+    width: 600px;
+    height: 600px;
+}
+
+/* =======================================Contact===================== */
+
+.contact {
+    background-color: var(--main-color);
+    width: 100%;
+    margin-top: 10px;
+}
+
+.startup{
+    color: #fff;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.link-group{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.link-group a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+    font-size: 25px;
+
+}
+
+.teach{
+    font-size: 20px;
+    margin-left: 30px;
+    color: #fff;
+}
+
+/* ====================================right-contact================= */
+
+.right-contact{
+    /* display: inline-flex; */
+    /* margin-bottom: 100px; */
+    color: #fff;
+}
+
+.join{
+    font-size: 25px;
+}
+
+.input{
+    padding: 20px;
+}
+
+
+
+footer{
+    /* margin-top: -100px; */
+    background-color: var(--main-color);
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+
+@media screen and (max-width:700px) {
+    .homeSection{
+        height: 50vh;
+        background-size: auto 100%;
+    }
+    .contened.tow{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:1245px) {
+    .cards .header img{
+        width: 100%;
+        height: 100%;
+        /* object-fit: cover; */
+    }
+}
